@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmKiralama.MVC", "FilmKiralama.MVC\FilmKiralama.MVC.csproj", "{505E2418-13CF-4F73-A24F-E220BA56741E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmKiralama.Entities", "FilmKiralama.Entities\FilmKiralama.Entities.csproj", "{4940963F-6B9E-43C6-AB38-4D087B3D5526}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505E2418-13CF-4F73-A24F-E220BA56741E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505E2418-13CF-4F73-A24F-E220BA56741E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505E2418-13CF-4F73-A24F-E220BA56741E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505E2418-13CF-4F73-A24F-E220BA56741E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4940963F-6B9E-43C6-AB38-4D087B3D5526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4940963F-6B9E-43C6-AB38-4D087B3D5526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4940963F-6B9E-43C6-AB38-4D087B3D5526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4940963F-6B9E-43C6-AB38-4D087B3D5526}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB727597-A178-476A-AEDE-B5E7010F62D7}
+	EndGlobalSection
+EndGlobal

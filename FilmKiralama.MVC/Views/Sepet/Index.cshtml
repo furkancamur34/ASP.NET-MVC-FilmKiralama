@@ -1,0 +1,49 @@
+﻿@using FilmKiralama.Entities.Model
+@model List<Sepet>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="m-3">
+    <div class="text-white text-center m-4 bg-primary">
+        <h2><b>SEPET</b></h2>
+    </div>
+
+    <div class="form-group">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Adı Soyadı</th>
+                    <th>Film Adı</th>
+                    <th>Alış Tarihi </th>
+                    <th>Teslim Tarihi </th>
+                    <th>Ücreti</th>
+                    <th>E-Posta Adresi</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sepet in Model)
+                {
+                    <tr>
+                        <td>@sepet.Musteri.MusteriAdi &nbsp; @sepet.Musteri.MusteriSoyadi </td>
+                        <td>@sepet.Film.FilmAdi</td>
+                        <td>@sepet.SepetAlisTarihi</td>
+                        <td>@sepet.SepetTeslimTarihi</td>
+                        <td>@sepet.SepetMiktar</td>
+                        <td>@sepet.Musteri.MusteriEposta</td>
+                        <td>
+                            <a class="btn btn-danger" href="/Sepet/Sil/@sepet.SepetID"> Sil </a>
+                            @{
+                                if (sepet.Film.FilmKiraDurumu == false)
+                                {
+                                    <a class="btn btn-success" href="/Sepet/TeslimEt/@sepet.SepetID"> Teslim Et </a>
+                                }
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

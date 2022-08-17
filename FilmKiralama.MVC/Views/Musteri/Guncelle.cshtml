@@ -1,0 +1,37 @@
+﻿@model FilmKiralama.Entities.Model.Musteri
+@{
+    ViewBag.Title = "Guncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="bg-primary text-center text-white m-3">
+    <h2><b>@Model.MusteriAdi @Model.MusteriSoyadi Müşterisini Güncelle</b></h2>
+</div>
+
+<div class="form-group m-3">
+    @using (Html.BeginForm("Guncelle", "Musteri", FormMethod.Post))
+    {
+        @Html.HiddenFor(x=>x.MusteriID)
+        @Html.Label("Musteri Adı")
+        @Html.TextBoxFor(x => x.MusteriAdi, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Musteri Soyadi")
+        @Html.TextBoxFor(x => x.MusteriSoyadi, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Musteri Cinsiyeti")
+        @Html.TextBoxFor(x => x.MusteriCinsiyeti, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Musteri Dogum Tarihi")
+        @Html.TextBoxFor(x => x.MusteriDogumTarihi, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Musteri E-Posta")
+        @Html.TextBoxFor(x => x.MusteriEposta, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Musteri Sifre")
+        @Html.TextBoxFor(x => x.MusteriSifre, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        <button class="btn btn-primary text-center">Kaydet</button>
+    }
+</div>
+
+

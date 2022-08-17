@@ -1,0 +1,30 @@
+﻿@model FilmKiralama.Entities.Model.Film
+@{
+    ViewBag.Title = "Guncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="bg-primary text-center text-white m-3">
+    <h2><b>Film Guncelle</b></h2>
+</div>
+
+<div class="form-group m-3">
+    @using (Html.BeginForm("Guncelle", "Film", FormMethod.Post))
+    {
+        @Html.Label("Kategorisi")
+        @Html.DropDownListFor(x => x.FilmKategoriId, (List<SelectListItem>)ViewBag.Kategoriler, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Film Adı")
+        @Html.TextBoxFor(x => x.FilmAdi, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Film Yayın Yılı")
+        @Html.TextBoxFor(x => x.FilmYayinYili, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        @Html.Label("Film Kiralama Ücreti ")
+        @Html.TextBoxFor(x => x.FilmKiralamaUcreti, new { @class = "form-control" })
+        <div class="mt-3"></div>
+        <button class="btn btn-primary text-center">Kaydet</button>
+    }
+
+</div>
+

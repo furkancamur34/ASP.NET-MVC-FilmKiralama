@@ -1,0 +1,17 @@
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\bin\Debug\FilmKiralama.Entities.dll.config
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\bin\Debug\FilmKiralama.Entities.dll
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\bin\Debug\FilmKiralama.Entities.pdb
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\bin\Debug\EntityFramework.dll
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\bin\Debug\EntityFramework.xml
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.csproj.CoreCompileInputs.cache
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.csproj.CopyComplete
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.dll
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.pdb
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.Migrations.veritabaniOlustur.resources
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.csproj.GenerateResource.cache
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.Migrations.veritabaniGuncelle.resources
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.Migrations.musteriLogin.resources
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.csproj.AssemblyReference.cache
+C:\Users\furka\source\repos\FilmKiralama\FilmKiralama.Entities\obj\Debug\FilmKiralama.Entities.Migrations.veritabaniGuncelleme.resources
